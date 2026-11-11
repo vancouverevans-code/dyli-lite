@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "DYLI Lite",
+      "hasCanvas": false,
+      "bodyTextLen": 642,
+      "bodyTextHash": "519b3743eac29b7100a35caf24c29a8db602a0f33372af46f97561343b06638f",
+      "bodyTextPrefix": "DYLI Lite Vault, pay, resale. One contract. BOT testnet · 968 Co",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "DYLI Lite",
+      "hasCanvas": false,
+      "bodyTextLen": 642,
+      "bodyTextHash": "519b3743eac29b7100a35caf24c29a8db602a0f33372af46f97561343b06638f",
+      "bodyTextPrefix": "DYLI Lite Vault, pay, resale. One contract. BOT testnet · 968 Co",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
