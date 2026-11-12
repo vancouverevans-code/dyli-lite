@@ -11,6 +11,8 @@ export const FAUCET_URL = "https://faucet.botchain.ai/basic";
 export const FEE_BPS = 250;
 export const FAUCET_AMOUNT = 1_000_000_000n;
 export const FAUCET_COOLDOWN = 60;
+/** Live DyliLite on BOT Chain testnet. Runtime bytecode matches this build. */
+export const DEPLOYED_CONTRACT = "0xa0b21bde2d7678b29f9de44e6962322adda97b59";
 
 export const BOT_TESTNET = {
   chainId: CHAIN_HEX,

@@ -39,6 +39,14 @@ Photos live in `public/collectibles/`.
 
 ## Contract
 
+Live deployment on BOT Chain testnet:
+
+`0xa0b21bde2d7678b29f9de44e6962322adda97b59`
+
+[View on scan.bohr.life](https://scan.bohr.life/address/0xa0b21bde2d7678b29f9de44e6962322adda97b59)
+
+The desk attaches to this address unless you paste another one. Fees go to `0x648a7374187717baaf5a24fb80e8dc9ed256a547`.
+
 Source: [`contracts/DyliLite.sol`](contracts/DyliLite.sol). Solidity `0.8.26`, MIT, no proxy and no library. The compiled creation code the desk deploys is in `src/lib/dyli/artifact.ts`.
 
 ```solidity

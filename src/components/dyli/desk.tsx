@@ -4,6 +4,7 @@ import { CREATION_BYTES, EIP170_LIMIT, RUNTIME_BYTES } from "@/lib/dyli/artifact
 import { ITEMS, type Item } from "@/lib/dyli/catalog";
 import {
   CHAIN_ID,
+  DEPLOYED_CONTRACT,
   EXPLORER,
   FAUCET_AMOUNT,
   FAUCET_COOLDOWN,
@@ -70,9 +71,10 @@ export function Desk() {
 
   useEffect(() => {
     setLedger(loadLedger());
-    const saved = localStorage.getItem(CONTRACT_KEY) ?? "";
-    setContract(saved);
-    setDraft(saved);
+    const saved = localStorage.getItem(CONTRACT_KEY);
+    const initial = saved && saved.length > 0 ? saved : DEPLOYED_CONTRACT;
+    setContract(initial);
+    setDraft(initial);
     const stored = localStorage.getItem(MODE_KEY);
     if (stored === "chain" || stored === "demo") setMode(stored);
     setReady(true);
